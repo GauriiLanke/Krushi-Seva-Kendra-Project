@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "450928924877",
+    "project_id": "krushi-seva-kendra-8b858",
+    "storage_bucket": "krushi-seva-kendra-8b858.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450928924877:android:3086d442ba0319c79d7184",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB71L5ANM8aQaz9UkeSeYfVRNfaSsxiyWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

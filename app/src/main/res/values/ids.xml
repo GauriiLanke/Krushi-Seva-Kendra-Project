@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="itemName" type="id">itemName</item>
+    <item name="itemPrice" type="id">itemPrice</item>
+    <item name="itemQuantity" type="id">itemQuantity</item>
+    <item name="incrementButton" type="id">incrementButton</item>
+    <item name="decrementButton" type="id">decrementButton</item>
+    <item name="cartSummaryTextView" type="id">cartSummaryTextView</item>
+</resources>

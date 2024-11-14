@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUsActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" CONNECT WITH US !"
+        android:textSize="27dp"
+        android:layout_below="@id/iv1"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="328dp"
+        android:src="@drawable/contactt"
+        android:id="@+id/iv1"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Contact Us"
+        android:textSize="25dp"
+        android:id="@+id/tv2"
+        android:layout_below="@id/tv1"
+        android:layout_marginTop="45dp"/>
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="58dp"
+        android:layout_height="54dp"
+        android:layout_below="@id/tv1"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@id/tv2"
+        android:src="@drawable/emaill" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Follow Us"
+        android:textSize="25dp"
+        android:id="@+id/tv3"
+        android:layout_below="@id/tv2"
+        android:layout_marginTop="45dp"/>
+
+    <ImageView
+        android:id="@+id/iv3"
+        android:layout_width="57dp"
+        android:layout_height="47dp"
+        android:layout_below="@id/tv2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="42dp"
+        android:layout_toRightOf="@id/tv3"
+        android:src="@drawable/insta" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Watch Us on Youtube"
+        android:textSize="25dp"
+        android:id="@+id/tv4"
+        android:layout_below="@id/tv3"
+        android:layout_marginTop="45dp"/>
+
+    <ImageView
+        android:id="@+id/iv4"
+        android:layout_width="58dp"
+        android:layout_height="54dp"
+        android:layout_below="@id/tv3"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="33dp"
+        android:layout_toRightOf="@id/tv4"
+        android:src="@drawable/youtubee" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Connect Us"
+        android:textSize="25dp"
+        android:id="@+id/tv5"
+        android:layout_below="@id/tv4"
+        android:layout_marginTop="45dp"/>
+
+    <ImageView
+        android:id="@+id/iv5"
+        android:layout_width="51dp"
+        android:layout_height="46dp"
+        android:layout_below="@id/tv4"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="38dp"
+        android:layout_toRightOf="@id/tv5"
+        android:src="@drawable/facebookk" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Stay updated with our latest content,news and updates!"
+        android:id="@+id/tv6"
+        android:layout_below="@id/iv5"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"/>
+
+
+
+</RelativeLayout>
