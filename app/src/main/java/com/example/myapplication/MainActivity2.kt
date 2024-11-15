@@ -24,11 +24,6 @@ class MainActivity2 : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val forgetButton = findViewById<TextView>(R.id.tvForgotPassword)
-        forgetButton.setOnClickListener {
-            val intent = Intent(this, ForgetPasswordActivity::class.java)
-            startActivity(intent)
-        }
 
         //Static validation of email,password
         val loginn=findViewById<AppCompatButton>(R.id.btnSignIn)
