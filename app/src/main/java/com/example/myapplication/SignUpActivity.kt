@@ -65,7 +65,7 @@ private fun SignUpActivity.createAccount(email: String, password: String) {
     auth.createUserWithEmailAndPassword(email,password).addOnCompleteListener{task->
         if(task.isSuccessful){
             Toast.makeText(this,"Account created successfully", Toast.LENGTH_SHORT).show()
-            val intent= Intent(this, MainActivity2::class.java)
+            val intent= Intent(this, DashBoardActivity::class.java)
             startActivity(intent)
             finish()
         }

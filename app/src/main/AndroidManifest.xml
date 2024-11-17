@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -12,9 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
-        <activity
-            android:name=".CartActivity"
-            android:exported="false" />
         <activity
             android:name=".DialogProductDetails"
             android:exported="false" />
@@ -40,9 +37,6 @@
             android:name=".ProductCatalogueActivity"
             android:exported="false" />
         <activity
-            android:name=".product_cataloguee"
-            android:exported="false" />
-        <activity
             android:name=".ContactUsActivity"
             android:exported="false" />
         <activity
@@ -61,19 +55,11 @@
             android:name=".BasicActivity"
             android:exported="false" />
         <activity
-            android:name=".ForgetPasswordActivity"
-            android:exported="false" />
-        <activity
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
             android:name=".GetStartedActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:exported="false">
         </activity>
         <activity
             android:name=".MainActivity2"
