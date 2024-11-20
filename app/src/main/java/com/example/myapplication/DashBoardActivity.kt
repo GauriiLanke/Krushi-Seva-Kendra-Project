@@ -25,9 +25,6 @@ class DashBoardActivity : AppCompatActivity() {
             startActivity(Intent(this, OnlinePurchasingActivity::class.java))
         }
 
-        findViewById<CardView>(R.id.cvFeedback).setOnClickListener {
-            startActivity(Intent(this, FeedbackActivity::class.java))
-        }
 
         findViewById<CardView>(R.id.cvContactUs).setOnClickListener {
             startActivity(Intent(this, ContactUsActivity::class.java))

@@ -7,21 +7,34 @@
     android:layout_height="match_parent"
     tools:context=".ContactUsActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:titleTextColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        app:navigationIcon="@drawable/backarrow" />
+
     <TextView
         android:id="@+id/tv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" CONNECT WITH US !"
-        android:textSize="27dp"
         android:layout_below="@id/iv1"
-        android:textStyle="bold"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="16dp"
+        android:foregroundGravity="center"
+        android:gravity="center_horizontal"
+        android:text=" CONNECT WITH US "
+        android:textSize="27dp"
+        android:textStyle="bold" />
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="328dp"
         android:src="@drawable/contactt"
         android:id="@+id/iv1"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="70dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -83,7 +96,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="  Connect Us"
+        android:text="  Connect with Us"
         android:textSize="25dp"
         android:id="@+id/tv5"
         android:layout_below="@id/tv4"
@@ -98,18 +111,5 @@
         android:layout_marginTop="38dp"
         android:layout_toRightOf="@id/tv5"
         android:src="@drawable/facebookk" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="  Stay updated with our latest content,news and updates!"
-        android:id="@+id/tv6"
-        android:layout_below="@id/iv5"
-        android:layout_centerHorizontal="true"
-        android:textSize="20dp"
-        android:layout_marginTop="50dp"
-        android:textStyle="bold"/>
-
-
 
 </RelativeLayout>
