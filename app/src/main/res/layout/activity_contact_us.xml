@@ -22,10 +22,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/iv1"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="18dp"
         android:foregroundGravity="center"
-        android:gravity="center_horizontal"
-        android:text=" CONNECT WITH US "
+        android:gravity="center"
+        android:text="  CONNECT WITH US "
         android:textSize="27dp"
         android:textStyle="bold" />
 

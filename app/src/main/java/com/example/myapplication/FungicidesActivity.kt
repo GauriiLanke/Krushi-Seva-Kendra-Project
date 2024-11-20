@@ -1,16 +1,14 @@
 package com.example.myapplication
 
+import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import android.app.Dialog
-import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
-
+import android.widget.Toast
+import androidx.appcompat.widget.Toolbar
 import androidx.cardview.widget.CardView
 
 class FungicidesActivity : AppCompatActivity() {
@@ -19,16 +17,23 @@ class FungicidesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fungicides)
+
+        val toolbar = findViewById<Toolbar>(R.id.toolbar)
+        setSupportActionBar(toolbar)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        toolbar.setNavigationOnClickListener {
+            onBackPressed()
+        }
+
         productDialog = Dialog(this)
         productDialog.setContentView(R.layout.activity_dialog_product_details)
 
-        // Set up CardViews
         val cvSaaf = findViewById<CardView>(R.id.cvSaaf)
         val cvAntracol = findViewById<CardView>(R.id.cvAntracol)
         val cvMacobanC = findViewById<CardView>(R.id.cvMacobanC)
         val cvCarzeb = findViewById<CardView>(R.id.cvCarzeb)
 
-        // Set click listeners for each CardView
         cvSaaf.setOnClickListener {
             showProductDetails(
                 name = "Saaf",
@@ -62,7 +67,7 @@ class FungicidesActivity : AppCompatActivity() {
         cvCarzeb.setOnClickListener {
             showProductDetails(
                 name = "Carzeb",
-                description = "It is used as a foliar spray or for seed treatment",
+                description = "Used as a foliar spray or for seed treatment",
                 imageRes = R.drawable.carzeb,
                 variants = "Variants: 250GM",
                 price = "₹300"
@@ -71,7 +76,6 @@ class FungicidesActivity : AppCompatActivity() {
     }
 
     private fun showProductDetails(name: String, description: String, imageRes: Int, variants: String, price: String) {
-        // Find views in the dialog
         val productImage = productDialog.findViewById<ImageView>(R.id.productImage)
         val productName = productDialog.findViewById<TextView>(R.id.productName)
         val productDescription = productDialog.findViewById<TextView>(R.id.productDescription)
@@ -79,21 +83,19 @@ class FungicidesActivity : AppCompatActivity() {
         val productPrice = productDialog.findViewById<TextView>(R.id.productPrice)
         val addToCartButton = productDialog.findViewById<Button>(R.id.addToCartButton)
 
-        // Set data to views
         productImage.setImageResource(imageRes)
         productName.text = name
         productDescription.text = description
         productVariants.text = variants
         productPrice.text = price
 
-        // Add to Cart button click listener
         addToCartButton.setOnClickListener {
-            // Add the product to cart
-            // You can add your cart functionality here
+            val productPriceValue = price.replace("₹", "").toDouble()
+            CartManager.addToCart(name, productPriceValue)
             productDialog.dismiss()
+            Toast.makeText(this,"Product added to cart", Toast.LENGTH_SHORT).show()
         }
 
-        // Show dialog
         productDialog.show()
     }
 }
