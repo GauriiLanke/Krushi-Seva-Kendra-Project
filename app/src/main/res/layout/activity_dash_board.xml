@@ -62,15 +62,16 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <ImageView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:src="@drawable/profile_icon"/>
+                    android:layout_width="87dp"
+                    android:layout_height="81dp"
+                    android:src="@drawable/profile_icon" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Profile"
-                    android:textSize="14sp"
+                    android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
             </LinearLayout>
@@ -94,14 +95,14 @@
                 android:gravity="center"
                 android:orientation="vertical">
                 <ImageView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
+                    android:layout_width="87dp"
+                    android:layout_height="81dp"
                     android:src="@drawable/product_icon"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Catalogue"
-                    android:textSize="14sp"
+                    android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
             </LinearLayout>
@@ -125,14 +126,14 @@
                 android:gravity="center"
                 android:orientation="vertical">
                 <ImageView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
+                    android:layout_width="87dp"
+                    android:layout_height="81dp"
                     android:src="@drawable/online_icon"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Purchasing"
-                    android:textSize="14sp"
+                    android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
             </LinearLayout>
@@ -159,14 +160,14 @@
                 android:gravity="center"
                 android:orientation="vertical">
                 <ImageView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
+                    android:layout_width="87dp"
+                    android:layout_height="81dp"
                     android:src="@drawable/contact_icon"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Contact Us"
-                    android:textSize="14sp"
+                    android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
             </LinearLayout>
@@ -190,14 +191,14 @@
                 android:gravity="center"
                 android:orientation="vertical">
                 <ImageView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
+                    android:layout_width="87dp"
+                    android:layout_height="81dp"
                     android:src="@drawable/logout_icon"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Logout"
-                    android:textSize="14sp"
+                    android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
             </LinearLayout>

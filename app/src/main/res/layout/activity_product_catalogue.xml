@@ -77,14 +77,14 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="86dp"
+                    android:layout_width="108dp"
+                    android:layout_height="103dp"
                     android:src="@drawable/fertilizerss" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Fertilizers"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
                     android:textColor="@color/black"/>
@@ -110,14 +110,14 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="86dp"
+                    android:layout_width="108dp"
+                    android:layout_height="103dp"
                     android:src="@drawable/herbicide" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Herbicides"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:layout_marginTop="10dp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
@@ -142,15 +142,15 @@
                 android:gravity="center"
                 android:orientation="vertical">
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="86dp"
+                    android:layout_width="108dp"
+                    android:layout_height="103dp"
                     android:src="@drawable/fungicide"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Fungicides"
                     android:layout_marginTop="10dp"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
             </LinearLayout>
@@ -177,14 +177,14 @@
                 android:gravity="center"
                 android:orientation="vertical">
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="86dp"
+                    android:layout_width="108dp"
+                    android:layout_height="103dp"
                     android:src="@drawable/pgr"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="PGR's"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:layout_marginTop="10dp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
@@ -209,14 +209,14 @@
                 android:gravity="center"
                 android:orientation="vertical">
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="86dp"
+                    android:layout_width="108dp"
+                    android:layout_height="103dp"
                     android:src="@drawable/micron"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Micro Nutrients"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:layout_marginTop="10dp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
@@ -240,14 +240,14 @@
                 android:gravity="center"
                 android:orientation="vertical">
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="86dp"
+                    android:layout_width="108dp"
+                    android:layout_height="103dp"
                     android:src="@drawable/insecticides"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Insecticides"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
                     android:textColor="@color/black"/>

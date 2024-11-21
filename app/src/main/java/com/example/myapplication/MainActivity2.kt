@@ -24,7 +24,6 @@ class MainActivity2 : AppCompatActivity() {
             startActivity(intent)
         }
 
-
         //Static validation of email,password
         val loginn=findViewById<AppCompatButton>(R.id.btnSignIn)
         val signInEmail=findViewById<EditText>(R.id.etSinInEmail)

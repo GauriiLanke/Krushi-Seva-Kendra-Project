@@ -57,6 +57,7 @@ dependencies {
     implementation("com.google.code.gson:gson:2.10.1")
     implementation(libs.dotsindicator)
     implementation(libs.firebase.database)
+    implementation("com.google.firebase:firebase-auth:23.1.0")
     implementation("androidx.recyclerview:recyclerview:1.3.0")
 
 }
