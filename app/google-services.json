@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "962298588421",
-    "project_id": "shri-krishna-fertilizers",
-    "storage_bucket": "shri-krishna-fertilizers.firebasestorage.app"
+    "project_number": "752920552903",
+    "project_id": "shree-krishna-fertilizer-da76e",
+    "storage_bucket": "shree-krishna-fertilizer-da76e.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:962298588421:android:d21b70ab882d134e5f5b6c",
+        "mobilesdk_app_id": "1:752920552903:android:089430d3e761e4dfb965e2",
         "android_client_info": {
           "package_name": "com.example.myapplication"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyACFu3gcZZ4-R1IDs-la7JIfmmDOhjoTrM"
+          "current_key": "AIzaSyDel_Y8NrFHbgk2fI5Pgt2tnqYmNFARMa8"
         }
       ],
       "services": {
