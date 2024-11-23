@@ -69,7 +69,7 @@
             android:name=".GetStartedActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
